@@ -12,7 +12,7 @@
 
 ## Demo
 
-"Still under development but" You can try out the live app here: [Report Assistant on Streamlit](https://report-assistant.streamlit.app/)
+Still under development but you can try out the live app here Soon!: [Report Assistant on Streamlit](https://report-assistant.streamlit.app/)
 
 ## Getting Started
 
