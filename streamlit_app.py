@@ -89,7 +89,6 @@ if check_password():
             elif chart_type == "Scatter Plot":
                 fig = px.scatter(data, x=x_column, y=y_column, title="Scatter Plot")
             elif chart_type == "Sankey Chart":
-                # Create Sankey chart with dummy source and target columns for demonstration
                 fig = go.Figure(data=[go.Sankey(
                     node=dict(
                         pad=15,
@@ -99,9 +98,9 @@ if check_password():
                         color="blue"
                     ),
                     link=dict(
-                        source=[0, 1, 0, 2, 3],  # Replace with actual source indices if available
-                        target=[1, 2, 3, 4, 4],  # Replace with actual target indices if available
-                        value=[1, 2, 2, 2, 1]    # Replace with actual values if available
+                        source=[0, 1, 0, 2, 3],  
+                        target=[1, 2, 3, 4, 4],  
+                        value=[1, 2, 2, 2, 1]    
                     )
                 )])
                 fig.update_layout(title_text="Sankey Chart", font_size=10)
