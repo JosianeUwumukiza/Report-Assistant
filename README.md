@@ -1,4 +1,4 @@
-# Report Assistant 📄📊
+# Report Assistant 📄📊 (Replaced by reportMaker repo)
 
 [![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://report-assistant.streamlit.app/)
 
